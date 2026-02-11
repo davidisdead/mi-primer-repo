@@ -7,3 +7,9 @@ def maximum(arr):
     if len(arr) == 0:
         return None
     return max(arr)
+
+#Función que devuelve el promedio de los elementos del arreglo
+def average(arr):
+    if len(arr) == 0:
+        return None
+    return sum(arr) / len(arr)
